@@ -605,6 +605,7 @@ a {
 
 .video-embeded video {
   width: 100%;
+  object-fit: cover;
 }
 
 .video-title {
