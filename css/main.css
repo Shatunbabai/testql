@@ -211,7 +211,6 @@ a {
   filter: blur(75px);
   top: -225px;
   left: 350px;
-  z-index: 10;
 }
 
 .header-round2 {
@@ -225,7 +224,6 @@ a {
   filter: blur(75px);
   right: -171px;
   top: 300px;
-  z-index: 10;
 }
 
 .layer-edit {
