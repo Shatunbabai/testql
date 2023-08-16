@@ -502,7 +502,6 @@ a {
 .core-item {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 .core-item .item-wrapper {
@@ -521,11 +520,13 @@ a {
   }
   .core-item .item-wrapper:first-child {
     margin-bottom: 30px;
+    margin-right: 10px;
   }
 }
 
 .core-item .item {
   max-width: 331px;
+  width: 100%;
   padding: 32px;
   border-radius: 8px;
 }
@@ -548,6 +549,7 @@ a {
 
 .core-item .item img {
   max-width: 267px;
+  width: 100%;
 }
 
 .container-title {
@@ -1266,6 +1268,14 @@ button:hover {
 
   .hero-content {
     padding-bottom: 462px;
+  }
+
+  .core-item {
+    flex-wrap: wrap;
+  }
+
+  .core-item .item-wrapper:first-child {
+    margin-right: 0;
   }
 }
 
