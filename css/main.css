@@ -600,11 +600,11 @@ a {
   width: 100%;
   position: relative;
   top: -112px;
+  background: #000;
 }
 
 .video-embeded video {
   width: 100%;
-  height: 642px;
 }
 
 .video-title {
