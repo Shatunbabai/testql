@@ -202,28 +202,22 @@ a {
 
 .header-round1 {
   position: absolute;
-  width: 197px;
-  height: 383px;
-  transform: rotate(41.013deg);
-  border-radius: 383px;
-  opacity: 0.4;
-  background: #e0ff00;
-  filter: blur(75px);
-  top: -225px;
-  left: 350px;
+  width: 593px;
+  height: 587px;
+  background-image: url("../img/hero-1.png");
+  background-repeat: no-repeat;
+  top: -309px;
+  left: 157px;
 }
 
 .header-round2 {
   position: absolute;
-  width: 334.412px;
-  height: 318.954px;
-  transform: rotate(41.013deg);
-  border-radius: 334.412px;
-  opacity: 0.3199999928474426;
-  background: #e0ff00;
-  filter: blur(75px);
-  right: -171px;
-  top: 300px;
+  width: 629px;
+  height: 604px;
+  background-image: url("../img/hero-2.png");
+  background-repeat: no-repeat;
+  right: -316px;
+  top: 184px;
 }
 
 .layer-edit {
