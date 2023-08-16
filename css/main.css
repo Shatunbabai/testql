@@ -601,11 +601,15 @@ a {
   position: relative;
   top: -112px;
   background: #000;
+  height: 642px;
 }
 
-.video-embeded video {
+.video-embeded #my-video {
   width: 100%;
-  object-fit: cover;
+  height: 100%;
+}
+
+.video-js .vjs-tech {
 }
 
 .video-title {
