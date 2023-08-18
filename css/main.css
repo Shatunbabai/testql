@@ -601,12 +601,10 @@ a {
   position: relative;
   top: -112px;
   background: #000;
-  height: 642px;
 }
 
 .video-embeded #my-video {
   width: 100%;
-  height: 100%;
 }
 
 .video-js .vjs-tech {
@@ -1465,4 +1463,14 @@ button:hover {
     height: 107px;
     background-image: url("../img/long-arrow2.png");
   }
+}
+
+/* video */
+.video-js {
+  height: auto !important;
+}
+
+.video-js .vjs-tech {
+  position: relative !important;
+  height: auto !important;
 }
